@@ -67,7 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				A1A7E6012790F31700729EB7 /* Sources */,
-				A1A7E60D2790F31700729EB7 /* eichTests */,
+				A1A7E60D2790F31700729EB7 /* Tests */,
 				A1A7E6002790F31700729EB7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -97,12 +97,12 @@
 			path = Sources;
 			sourceTree = "<group>";
 		};
-		A1A7E60D2790F31700729EB7 /* eichTests */ = {
+		A1A7E60D2790F31700729EB7 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
 				A1A7E60E2790F31700729EB7 /* eichTests.swift */,
 			);
-			path = eichTests;
+			path = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

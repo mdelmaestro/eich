@@ -21,7 +21,7 @@ extension HttpClient {
         body: Data? = nil,
         completion: @escaping ResponseCompletion
     ) {
-        request(path, method: .get, headers: headers, body: body, completion: completion)
+        request(path, method: .post, headers: headers, body: body, completion: completion)
     }
     
     public func put(
@@ -30,7 +30,7 @@ extension HttpClient {
         body: Data? = nil,
         completion: @escaping ResponseCompletion
     ) {
-        request(path, method: .get, headers: headers, body: body, completion: completion)
+        request(path, method: .put, headers: headers, body: body, completion: completion)
     }
     
     public func delete(
@@ -38,6 +38,6 @@ extension HttpClient {
         headers: [String : String] = [:],
         completion: @escaping ResponseCompletion
     ) {
-        request(path, method: .get, headers: headers, completion: completion)
+        request(path, method: .delete, headers: headers, completion: completion)
     }
 }

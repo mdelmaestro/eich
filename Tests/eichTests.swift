@@ -36,30 +36,4 @@ class eichTests: XCTestCase {
         
         wait(for: [expectation], timeout: 5)
     }
-
-    func testPerformanceExample() throws {
-        // This is an example of a performance test case.
-        
-        let service = HttpClient(baseURL: "https://api.punkapi.com/v2/")
-        let expectation = self.expectation(description: "Http get")
-        
-            
-        self.measure {
-            // Put the code you want to measure the time of here.
-            
-            service.get("beers") { result in
-                switch result {
-                case .success(let response):
-                    print(response)
-                    print(try! response.body?.deserialize() ?? "")
-                    expectation.fulfill()
-                case .failure(let error):
-                    XCTFail(error.localizedDescription)
-                }
-            }
-        }
-        
-        wait(for: [expectation], timeout: 5)
-    }
-
 }
