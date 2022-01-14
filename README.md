@@ -1,4 +1,7 @@
 # ``eich``
+[![Version](https://img.shields.io/cocoapods/v/eich.svg?style=flat)](https://cocoapods.org/pods/eich)
+[![License](https://img.shields.io/cocoapods/l/eich.svg?style=flat)](https://cocoapods.org/pods/eich)
+[![Platform](https://img.shields.io/cocoapods/p/eich.svg?style=flat)](https://cocoapods.org/pods/eich)
 
 eɪtʃ, H, or h, is the eighth letter in the ISO basic Latin alphabet. Its name in English is aitch (pronounced /ˈeɪtʃ/, plural aitches), or regionally haitch /ˈheɪtʃ/. [Source Wikipedia]
 
