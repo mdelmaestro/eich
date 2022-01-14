@@ -41,7 +41,7 @@
 		A1A7E6252790FCF800729EB7 /* HttpResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
 		A1A7E6272791045500729EB7 /* Data+Serialization.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Data+Serialization.swift"; sourceTree = "<group>"; };
 		A1A7E629279106FD00729EB7 /* Http+Sugar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Http+Sugar.swift"; sourceTree = "<group>"; };
-		A1A7E62B27910B5E00729EB7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		A1A7E62E2791121800729EB7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +84,7 @@
 		A1A7E6012790F31700729EB7 /* eich */ = {
 			isa = PBXGroup;
 			children = (
+				A1A7E62E2791121800729EB7 /* README.md */,
 				A1A7E6022790F31700729EB7 /* eich.h */,
 				A1A7E61B2790F38A00729EB7 /* HttpClient.swift */,
 				A1A7E61D2790F3E700729EB7 /* HttpMethod.swift */,
@@ -92,7 +93,6 @@
 				A1A7E6252790FCF800729EB7 /* HttpResponse.swift */,
 				A1A7E6272791045500729EB7 /* Data+Serialization.swift */,
 				A1A7E629279106FD00729EB7 /* Http+Sugar.swift */,
-				A1A7E62B27910B5E00729EB7 /* README.md */,
 			);
 			path = eich;
 			sourceTree = "<group>";
